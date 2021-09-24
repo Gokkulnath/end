@@ -22,4 +22,6 @@ Loss is an optimisation objective  which is used to quantitative measure the opt
 
 5. What is the "chain rule" in gradient flow?
 
-Chain rule of derivatives is applied to compute the intermediate gradient from the later layes. During backpropgation, we use this principle to compute the gradients  information by computing the derivatives wrt current node and multiply it with partial derivatives wrt weights in order to obtain gradients for each weight parameters.
+Chain rule of derivatives is applied to compute the intermediate gradient from the later layers. During backpropgation, we use this principle to compute the gradients  information by computing the derivatives wrt current node and multiply it with partial derivatives wrt weights in order to obtain gradients for each weight parameters.
+
+![](https://miro.medium.com/max/2000/1*U3mVDYuvnaLhJzIFw_d5qQ.png)
